@@ -293,7 +293,7 @@ body {
 	background: url(img/body-top.png) repeat-x top left #f6f6f6;
 }
 ul {
-	list-style-type: none;
+	list-style-type: square;
 	list-style-image: none;
 	margin: 0;
 	padding: 0.3em 0 0 0;
