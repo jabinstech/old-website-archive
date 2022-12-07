@@ -15,6 +15,17 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -58,7 +69,7 @@
 				<div class="article">
 					<h1>4 fun Linux commands to impress your friends</h1>
 					<p class="siteSub">By Jabin | 12/7/2022 (Rewritten from the old site)</p>
-					<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FJabins-Tech%2F100088767240795%2F&width=74&layout=box_count&action=like&size=large&share=true&height=65&appId" width="74" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+					<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 					<p>Here are some Linux commands you can install and mess around with. You know what they say, Cowsay keeps the boring away. Okay, maybe they don't say that. This tutorial is for Debian-based Linux distributions.</p>
 					<h2>4. Toilet</h2>
 					<img src="/img/toilet-demo.png" alt="toilet demo image">
