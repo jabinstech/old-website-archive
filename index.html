@@ -1,101 +1,84 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<!--Bigfoot9999 says hello-->
+<script>
+    if (window.parent !== window.self) window.parent.postMessage("bonk", "*");
+    window.addEventListener("DOMContentLoaded", function () {
+        document.body.style.margin = "0";
+        document.body.style.height = "100vh";
+        document.body.style.overflow = "hidden";
+    });
+</script>
+<html lang="en-us">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Jabin's Tech - Home</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="canonical" href="http://html5-templates.com/" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
-        <link rel="stylesheet" href="style.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Slope | Bigfoot9999</title>
+        <link href="shared/style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="TemplateData56/style.css" />
+        <script src="TemplateData56/UnityProgress.js"></script>
+        <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+        <script src="Build/UnityLoader.js"></script>
+        <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "74231a7994394f36b20d083f82e823f8"}'></script><!-- End Cloudflare Web Analytics -->
+        <script>
+            window.rWS = WebSocket;
+            WebSocket = function (url, options) {
+                var split = url.split("://");
+                var prefix = "";
+                if (!url.includes("arc.io")) {
+                    switch (split[0].toLowerCase()) {
+                        case "ws":
+                            prefix = "wss://onebigorange-tmm.tbt.mx/websocket/http://";
+                            break;
+                        case "wss":
+                            prefix = "wss://onebigorange-tmm.tbt.mx/websocket/https://";
+                            break;
+                        default:
+                            prefix = split[0];
+                    }
+                    return new (Function.prototype.bind.call(
+                        window.rWS,
+                        null,
+                        (split[1].match(/\//g) || []).length === 0 ? (split[1].includes("?") ? prefix + split[1].replace("?", "/?") : prefix + split[1] + "/") : prefix + split[1],
+                        options
+                    ))();
+                } else {
+                    return new window.rWS(url, options);
+                }
+            };
+            var origOpen = XMLHttpRequest.prototype.open;
+            XMLHttpRequest.prototype.open = function (...args) {
+                if (!args[1].includes("arc.io")) args[1] = /^http/.test(args[1]) ? "https://onebigstatic-tmm.tbt.mx/static/" + args[1] : args[1];
+                origOpen.apply(this, args);
+            };
+            var gameInstance = UnityLoader.instantiate("gameContainer", "Build/slope_27Sept.json", {
+                onProgress: UnityProgress,
+                Module: {
+                    onRuntimeInitialized: function () {
+                        UnityProgress(gameInstance, "complete");
+                    },
+                },
+            });
+        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+            gtag("config", "G-98DP5VKS42");
+        </script>
+        <script src="shared/lib.js" type="text/javascript"></script>
+        <script src="shared/gamebreak/gamebreak.js" type="text/javascript"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-<script type="text/javascript" src="https://cookieconsent.popupsmart.com/src/js/popper.js"></script><script> window.start.init({Palette:"palette3",Mode:"banner bottom",Theme:"edgeless",Message:"Want some freshly baked cookies? My website might use a cookie or two to improve the user experience in some areas of the site. ",LinkText:"What do cookies do?",Location:"https://www.cloudflare.com/learning/privacy/what-are-cookies/",ButtonText:"I'll take some cookies!",Time:"0",})</script>
-
-		<div class="wrapAll clearfix">
-			<div class="sidebar">
-				<div class="logo">
-					<a href="/"><img src='/img/jabinstechlogotransparent.png' alt="logo"></a>
-				</div>
-				<div class="navigation">
-					<h3>Main Pages</h3>
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="contents.html">Contents</a></li>
-						<li><a href="featured.html">Featured Articles</a></li>
-						<li><a href="websearch.html">Web Search (New!)</a></li>
-					</ul>
-					<h3>More</h3>
-					<ul>
-						<li><a href="about.html">About</a></li>
-						<li><a href="https://www.youtube.com/channel/UCFisNF30Z3p0GNci55DdKUA/" target="_blank">YouTube</a></li>
-						<li><a href="https://www.github.com/JabinsTech/jabinstech.github.io/" target="_blank">GitHub Repo</a></li>
-					</ul>
-				</div>
-
-			
-			</div>
-			<div class="mainsection">
-				<div class="headerLinks">
-					<span class="user">Hello, Guest!</span>
-				</div>
-				<div class="tabs clearfix">
-					<div class="tabsLeft">
-						<ul>
-							<li><a href="#" class="active">Page</a></li>					
-						</ul>
-					</div>
-				
-				</div>
-				<div class="article">
-					<h1>Jabin's Tech</h1>
-					<p class="siteSub">Since December 2021</p>
-					<p class="roleNote">This page is the welcome page for this website. For all articles see <a href="contents.html">Contents</a>.</p>
-
-					<div class="articleRight">
-						<div class="articleRightInner">
-							<img src="/img/jabinstechlogotransparent.png" alt="jabin's tech logo" width="120" height="120"/>
-						</div>
-						Jabin's Tech's current logo.
-					</div>
-					<hr>
-					<p>Welcome to <strong>Jabin's Tech</strong>. Jabin's Tech is a technology blog website made for publishing articles and tutorials. Technology can be difficult and hard to understand or control sometimes and Jabin's Tech is here to help you solve your computer problems.</p>
-					<p>Jabin's Tech is owned and created by Jabin (a tech nerd) and is updated with new articles occasionally.</p>
-					<p style="background-color:CadetBlue;"><strong><em>YouTube Channel </em></strong> <button onclick="window.location.href='https://www.youtube.com/channel/UCFisNF30Z3p0GNci55DdKUA/';">Go there!</button> - <strong>Visit my YouTube channel for tutorials, reviews, and much more!</strong></p>
-					<hr>
-					<h3>Quick Links</h3>
-					<p style="background-color:CadetBlue;"><strong><em>Latest Article</em></strong> <button onclick="window.location.href='https://jabinstech.net/articles/starwars-terminal.html';">Read Now</button> - <strong>Here's how you can watch Star Wars: A New Hope from your terminal on Windows or Linux for free!</strong></p>
-					<p><button onclick="window.location.href='https://jabinstech.net/articles/tv-into-smart-tv-raspberry-pi.html';">Read Now</button> - <strong>How to turn your TV into a smart TV with a Raspberry Pi</strong></p>
-					<p><button onclick="window.location.href='https://jabinstech.net/articles/why-i-ditched-weebly.html';">Read Now</button> - <strong>Why I ditched Weebly (and why you should too)</strong></p>
-					<p><button onclick="window.location.href='https://jabinstech.net/articles/how-to-fix-a-slow-device.html';">Read Now</button> - <strong>How to fix a slow device</strong></p>
-					<p><button onclick="window.location.href='https://jabinstech.net/articles/what-is-system32.html';">Read Now</button> - <strong>What is System32 (and what happens if you delete it)</strong></p>
-				<div class="pagefooter">
-					This page was last edited on 1/1/2023 | Template by <a href="http://html5-templates.com/" target="_blank" rel="nofollow">HTML5 Templates</a> <!-- Please leave this link unchanged -->
-					<div class="footerlinks">
-						<a href="about.html">About</a> <a href="developers.html">Developers</a> 
-					</div>
-					<div class="footercontact">
-						Contact Email: <a href="mailto:jabinstech@pm.me">jabinstech@pm.me</a>
-					</div>
-				</div>
-			
-			
-			</div>		
-		</div>
-		
-		
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="script.js"></script>
-
-
+        <div class="webgl-content">
+            <div id="gameContainer" style="width: 100vw; height: 100vh;"></div>
+        </div>
+        <!-- hitwebcounter Code START -->
+<a href="https://www.hitwebcounter.com" target="_blank">
+<img src="https://hitwebcounter.com/counter/counter.php?page=7961039&style=0001&nbdigits=5&type=page&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a>                                    
+                                    
     </body>
+                    
 </html>
