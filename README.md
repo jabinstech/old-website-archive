@@ -1,4 +1,5 @@
-# Jabin's Tech
-## THE WEBSITE IS DELETED RIGHT NOW, I WILL RESTORE IT WHEN I HAVE TIME.
-## I HAVE A BACKUP OF INDEX.HTML AND STYLE.CSS
-Yeah funny story I accidentially deleted my website's homepage and CSS file. Information is available at https://jabinstech.net
+# jabinstech.github.io
+## Jabin's Tech website
+
+What this is for?
+This is for publishing to my website JabinsTech.net
