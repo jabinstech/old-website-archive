@@ -1,0 +1,23 @@
+{
+  "name": "scratchdbupdown",
+  "version": "1.0.0",
+  "description": "ScratchDB Up or Down?",
+  "main": " ",
+  "scripts": {
+    "server": "python3 -m http.server",
+    "test": " "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdev082/ScratchDBDown.git"
+  },
+  "keywords": [
+    "scratchdb"
+  ],
+  "author": "JaydenDev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdev082/ScratchDBDown/issues"
+  },
+  "homepage": "https://github.com/jdev082/ScratchDBDown#readme"
+}

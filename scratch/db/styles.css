@@ -1,0 +1,10 @@
+body { 
+    background-color: lightgreen;
+}
+
+p {
+    font-size: 35pt;
+    font-family: system-ui;
+    color: white;
+    margin: 0 auto;
+}
