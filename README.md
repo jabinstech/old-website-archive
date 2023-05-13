@@ -1,5 +1,6 @@
-# jabinstech.github.io
-## Jabin's Tech website
+# jabinstech.net
 
-What this is for?
-This is for publishing to my website JabinsTech.net
+Source code and hosting for my website.
+https://jabinstech.net/
+
+I used to do articles a lot but now I'm just messing around with Scratch-related stuff.
