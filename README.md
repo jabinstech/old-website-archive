@@ -1,6 +1,3 @@
-# jabinstech.net
+# HUGE REVAMP COMING SOON
 
-Source code and hosting for my website.
-https://jabinstech.net/
-
-I used to do articles a lot but now I'm just messing around with Scratch-related stuff.
+Currently working on revamping the entire site. I might make the old site available at jabinstech.github.io though?
