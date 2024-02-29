@@ -1,8 +1,1 @@
-# jabinstech.net
-website for everything jabin does with technology
-
-archived (old) site:
-https://jabinstech.github.io/archive
-
-articles are still hosted here
-
+# RE-ARCHIVED TO CHANGE NAME ON 2/29/24
